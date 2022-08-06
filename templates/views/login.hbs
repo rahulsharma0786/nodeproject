@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    {{>header}}
+</head>
+<body>
+    {{>navbar}}
+<div class="global-container">
+<div class="card login-from">
+<div class="card-body" >
+<h1 class="card-tital text-center">LOGIN</h1>
+<div class="card-text">
+
+<form action="/login" method="post">
+<div class="form-group">
+ 
+<label class="mail" for="exampleInputemail">email address</label>
+<input class="place" type="email" class="from-control from-control-sm" id="exampleInputEmail" placeholder="email" name="email"/>
+</div>
+
+<div class="form-group">
+
+<label class="mail" for="exampleInputPassword">password</label>
+<input class="place" type="password" class="from-control from-control-sm" id="exampleInputEmail" placeholder="password" name="password"/>
+</div>
+<button type="submit" class="btn btn-primary">Sign In</button>
+
+
+<div class="signup">
+Don't have an account? <a href="/register">Create One</a>  
+</div>
+
+
+</form>
+
+</div>  
+</div>
+
+
+
+</div>
+
+
+
+
+
+</div>    
+      
+</body>
+</html>      

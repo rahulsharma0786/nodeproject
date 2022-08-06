@@ -1,0 +1,78 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html,
+body{
+
+height:100;
+background-color: white;
+font-family: sans-serif;
+}
+.global-container{
+margin-top: 100px;    
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+color:#0db8de;
+
+}
+
+
+form{
+
+font-size: 14px;
+margin-top: 30px;
+margin-left: 30px;
+
+}
+
+.mail{
+    display: block;
+}
+.place{
+ height: 35px;   
+ width: 200px;
+ border-radius: 10px;
+}
+.click{
+width: 90%;
+}
+
+.register{
+
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 100px;
+    
+    }
+
+.danger{
+box-sizing: border-box;    
+color: red;
+
+
+}
+
+input{
+width: 5px;
+
+
+}
+
+.center{
+margin-left: 70px;
+
+}
+
+.test{
+text-align: justify;
+
+
+}
+
+  
+  
